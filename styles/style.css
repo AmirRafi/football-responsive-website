@@ -111,3 +111,30 @@ body{
  .icon  i{
      padding: 10px;
  }
+
+ /*------------------
+     Media Quaries 
+  -------------------*/
+
+  /* Mobile Devices */
+  @media only screen and (max-width:480px) {
+      .watch-live{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          position: relative;
+      }
+      .player-details{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          padding-left: 200px;
+          position: relative;
+      }
+      .extra-part{
+          display: flex;
+          flex-direction: column;
+      }
+      .last-part{
+          display: none;
+      }
+
+  }
