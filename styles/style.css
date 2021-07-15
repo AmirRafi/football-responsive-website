@@ -138,3 +138,37 @@ body{
       }
 
   }
+
+  /* PC Devices */
+  @media only screen and (max-width:1200px) {
+         .watch-live {
+            display: flex;
+            background-color: #2D25A0;
+            justify-content: space-between;
+            width: 100%;
+            height: 599px;
+            padding-right: 250px;
+            color: white;
+         }
+         .extra-part{
+            display: flex;
+            margin-left: 20px;
+            text-align: center;
+            width: 100%;
+           
+            justify-content: space-between ;
+        }
+        .love-football img{
+            width: 400px;
+        }
+        .love-club img{
+            width: 500px;
+            
+        }
+        .love-club, .love-football{
+            width: 100%;
+            padding: 10px;
+            margin: 5px;
+            border: 5px solid wheat;
+      
+  }
